@@ -14,7 +14,13 @@
 	}
 </style>
   <body>
-  <model-viewer src="assets/Astird_chair.glb" camera-controls auto-rotate</model-viewer>
+  <model-viewer src="assets/Astird_chair.glb" camera-controls auto-rotate 
+   <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+  </model-viewer>
 
   </body>
 </html>
